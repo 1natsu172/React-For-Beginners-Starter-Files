@@ -25,7 +25,7 @@ export default class AddFishForm extends React.Component {
   render() {
     return (
       <form className="fish-edit" onSubmit={this.createFish}>
-        <input type="text" ref={this.nameRef} name="name" placeholder="Name" />
+        <input type="text" ref={this.nameRef} name="name" placeholder="Name" required />
         <input
           type="text"
           ref={this.priceRef}
